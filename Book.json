@@ -1,0 +1,175 @@
+{
+  "Crime": [
+    {
+      "id": 0,
+      "name": "The Girl with the Dragon Tattoo",
+      "price": "15.99",
+      "description": "A gripping crime thriller featuring investigative journalist Mikael Blomkvist and hacker Lisbeth Salander.",
+      "author": "Stieg Larsson",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684638853l/2429135.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Gone Girl",
+      "price": "12.99",
+      "description": "A psychological thriller that explores the secrets and lies within a marriage.",
+      "author": "Gillian Flynn",
+      "image": "https://m.media-amazon.com/images/I/71+khXHbe5L._AC_UF894,1000_QL80_.jpg"
+    }
+  ],
+  "Fantasy": [
+    {
+      "id": 0,
+      "name": "Harry Potter and the Philosopher's Stone",
+      "price": "9.99",
+      "description": "The first book in the Harry Potter series, following the magical journey of a young wizard.",
+      "author": "J.K. Rowling",
+      "image": "https://static-01.daraz.com.bd/p/88c8fe011aa2683f66e43efe9922dafc.jpg"
+    },
+    {
+      "id": 1,
+      "name": "The Name of the Wind",
+      "price": "14.99",
+      "description": "An epic fantasy novel chronicling the life of Kvothe, a gifted young man with a mysterious past.",
+      "author": "Patrick Rothfuss",
+      "image": "https://m.media-amazon.com/images/I/611iKJa7a-L._AC_UF1000,1000_QL80_.jpg"
+    }
+  ],
+  "Sci-Fi": [
+    {
+      "id": 2,
+      "name": "Dune",
+      "price": "18.99",
+      "description": "A science fiction masterpiece set in a distant future where noble houses vie for control of the desert planet Arrakis.",
+      "author": "Frank Herbert",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592650253l/50395705.jpg"
+    },
+    {
+      "id": 3,
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "price": "10.99",
+      "description": "A humorous science fiction series following the misadventures of Arthur Dent, an ordinary human plucked from Earth.",
+      "author": "Douglas Adams",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1404613595i/13.jpg"
+    }
+  ],
+  "Adventures": [
+    {
+      "id": 4,
+      "name": "The Adventures of Tom Sawyer",
+      "price": "7.99",
+      "description": "A classic adventure novel depicting the escapades of young Tom Sawyer in a small town on the Mississippi River.",
+      "author": "Mark Twain",
+      "image": "https://images.ucpress.edu/covers/isbn13/9780520343634.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Treasure Island",
+      "price": "6.99",
+      "description": "A tale of pirates, treasure maps, and adventure on the high seas.",
+      "author": "Robert Louis Stevenson",
+      "image": "https://m.media-amazon.com/images/I/710K9pWWZ+L._AC_UF1000,1000_QL80_.jpg"
+    }
+  ],
+  "Thriller": [
+    {
+      "id": 6,
+      "name": "The Da Vinci Code",
+      "price": "12.49",
+      "description": "A mystery thriller involving a symbologist and a cryptologist solving a murder in the Louvre Museum.",
+      "author": "Dan Brown",
+      "image": "https://img1.od-cdn.com/ImageType-400/1191-1/%7B1A3EAC4B-BC58-4923-9725-51C283C77E9A%7DIMG400.JPG"
+    }
+  ],
+  "Horror": [
+    {
+      "id": 7,
+      "name": "It",
+      "price": "14.99",
+      "description": "A terrifying horror novel about a group of friends confronting their worst nightmares when they return to their hometown.",
+      "author": "Stephen King",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1334416842i/830502.jpg"
+    },
+    {
+      "id": 8,
+      "name": "The Shining",
+      "price": "11.99",
+      "description": "A chilling tale of supernatural terror as a family becomes caretakers of an isolated hotel during the winter.",
+      "author": "Stephen King",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/The_Shining_%281977%29_front_cover%2C_first_edition.jpg"
+    }
+  ],
+  "Historical Fiction": [
+    {
+      "id": 9,
+      "name": "The Book Thief",
+      "price": "10.99",
+      "description": "Set in Nazi Germany, this novel tells the story of a young girl who steals books and shares them with others, all while Death narrates her story.",
+      "author": "Markus Zusak",
+      "image": "https://static-01.daraz.com.bd/p/2be137a0eaa778c12821d775bf3b0a70.jpg"
+    },
+    {
+      "id": 10,
+      "name": "The Nightingale",
+      "price": "13.99",
+      "description": "A historical fiction novel set in France during World War II, focusing on two sisters and their struggle to survive and resist the Nazi occupation.",
+      "author": "Kristin Hannah",
+      "image": "https://static-01.daraz.com.bd/p/6474511e112a244f7ca01d9573cb4054.jpg"
+    }
+  ],
+  "Biography": [
+    {
+      "id": 11,
+      "name": "Steve Jobs",
+      "price": "18.99",
+      "description": "A biography of Steve Jobs, the co-founder of Apple Inc., detailing his life, career, and impact on technology.",
+      "author": "Walter Isaacson",
+      "image": "https://m.media-amazon.com/images/I/71sVQDj0SCL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Becoming",
+      "price": "16.49",
+      "description": "The memoir of former First Lady Michelle Obama, reflecting on her life, her journey, and her role as a public figure.",
+      "author": "Michelle Obama",
+      "image": "https://static-01.daraz.com.bd/p/a1797aed2a8a16a80089fb55ace6cbc4.jpg"
+    }
+  ],
+  "History": [
+    {
+      "id": 13,
+      "name": "Sapiens: A Brief History of Humankind",
+      "price": "14.99",
+      "description": "A thought-provoking exploration of the history of Homo sapiens, from the emergence of our species to the present day.",
+      "author": "Yuval Noah Harari",
+      "image": "https://pathakshamabesh.com/wp-content/uploads/2022/02/9780099590088.jpg"
+    },
+    {
+      "id": 14,
+      "name": "The Guns of August",
+      "price": "17.99",
+      "description": "A detailed account of the first month of World War I, analyzing the events leading up to the conflict and its consequences.",
+      "author": "Barbara W. Tuchman",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1617037342i/40779082.jpg"
+    }
+  ],
+  "Art Book": [
+    {
+      "id": 15,
+      "name": "The Art Book",
+      "price": "20.99",
+      "description": "An illustrated encyclopedia of artists and their works, spanning centuries and cultures, offering a comprehensive overview of the world of art.",
+      "author": "Phaidon Editors",
+      "image": "https://www.phaidon.com/images/9780714867960/main-mobile-x1-jpg/9780714867960.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Ways of Seeing",
+      "price": "16.99",
+      "description": "A seminal work on visual culture and art theory, challenging traditional ways of looking at and understanding art.",
+      "author": "John Berger",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1703328414i/2784.jpg"
+    }
+  ]
+}
+

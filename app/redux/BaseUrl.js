@@ -1,0 +1,1 @@
+export const baseUrl = "https://book-review-react-native-default-rtdb.firebaseio.com/";
