@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  ImageBackground,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import { ImageBackground, ScrollView, StyleSheet, Text, TouchableOpacity, View, SafeAreaView } from "react-native";
 import catBg from "../images/alBooks.jpg";
 import { useDispatch } from "react-redux";
 import { addCategory } from "../redux/SliceCreator";
@@ -20,19 +13,9 @@ const CategoryScreen = (props) => {
   };
 
   return (
-    <SafeAreaView style={styles.catContainer}>
-      <ImageBackground
-        source={catBg}
-        blurRadius={5}
-        style={{
-          ...styles.catContainer,
-          width: "100%",
-          height: "100%",
-          paddingVertical: 0,
-          justifyContent: "baseline",
-        }}
-      >
-        <ScrollView contentContainerStyle={styles.selectCat}>
+    <SafeAreaView style={styles.container}>
+      <ImageBackground source={catBg} blurRadius={5} style={styles.imageBackground}>
+        <ScrollView contentContainerStyle={styles.contentContainer}>
           <Text style={styles.selectCatText}>Choose a category</Text>
 
           <TouchableOpacity onPress={() => onSelectCat("Adventure")}>
@@ -81,18 +64,20 @@ const CategoryScreen = (props) => {
 };
 
 const styles = StyleSheet.create({
-  catContainer: {
+  container: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    paddingVertical: 5,
   },
-  selectCat: {
+  imageBackground: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center",
+  },
+  contentContainer: {
+    flexGrow: 1,
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 50,
-    gap: 8,
-    flexGrow: 1,
+    paddingTop: 50,
+    paddingBottom: 20,
   },
   catText: {
     color: "#fff",
@@ -108,13 +93,12 @@ const styles = StyleSheet.create({
     fontWeight: "300",
     width: 350,
     textAlign: "center",
+    marginBottom: 10,
   },
   selectCatText: {
     fontSize: 30,
     color: "#fff",
     fontWeight: "500",
-    padding: 5,
-    elevation: 10,
     marginBottom: 10,
   },
 });
